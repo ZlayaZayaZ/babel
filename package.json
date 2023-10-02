@@ -1,0 +1,31 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "'setting bable for project'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZlayaZayaZ/babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ZlayaZayaZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZlayaZayaZ/babel/issues"
+  },
+  "homepage": "https://github.com/ZlayaZayaZ/babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20"
+  },
+  "dependencies": {
+    "core-js": "^3.33.0"
+  }
+}
